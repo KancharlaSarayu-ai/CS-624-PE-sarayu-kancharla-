@@ -20,4 +20,4 @@ class App extends Component {
         this.setState({ todos, inputValue: '' }, () => {    
           console.log('State: ', this.state)    
         }) 
-      }
+  }
