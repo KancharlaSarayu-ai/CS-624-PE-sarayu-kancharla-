@@ -138,7 +138,7 @@ export default class App extends Component {
     const rows = [];
     for (let i = 0; i < profiles.length; i += 2) {
       rows.push(
-        <WrapContainer key={wrap-container-${i / 2}}>
+        <WrapContainer key={'wrap-container-${i / 2}'}>
           {profiles.slice(i, i + 2)}
         </WrapContainer>
       );
